@@ -57,7 +57,7 @@ export default function TranslateContextProvider({ children }) {
     try {
       const response = await axios.request(options);
       setTextConverted(response.data.trans);
-      console.log(response.data);
+      // console.log(response.data);
       // return response.data.translatedText;
     } catch (error) {
       console.error(error);

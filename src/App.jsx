@@ -18,10 +18,6 @@ function App() {
     setTextConverted,
     translateText,
   } = useContext(TranslateContext);
-  // setTeaxtConverted(textToConvert);
-  // console.log("From:", languageFrom, "To:", languageTo);
-  // console.log("From:", textToConvert, "To:", textConverted);
-  // console.log(textConverted);
   const handleTranslate = async () => {
     try {
       await translateText(textToConvert, languageFrom, languageTo);
