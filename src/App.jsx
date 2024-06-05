@@ -39,7 +39,7 @@ function App() {
     <>
       <div className="bg-[#111222] h-full sm:h-screen p-4 flex items-center justify-center">
         <div className="flex flex-col gap-y-8 w-full max-w-4xl mx-auto">
-          <h1 className="text-blue-500 font-bold text-4xl text-center">
+          <h1 className="text-blue-500 font-bold text-3xl sm:text-4xl text-center">
             Language - Translator
           </h1>
           <div className="flex sm:gap-x-2 w-full mx-auto items-center flex-wrap justify-center gap-y-2 sm:flex-nowrap">
